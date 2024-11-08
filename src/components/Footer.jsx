@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from "../assets/logo.png"
+import churro from "../assets/churros.png"
 
 export const Footer = () => {
     return (
@@ -16,7 +17,7 @@ export const Footer = () => {
                     <li>Bebidas</li>
                 </ul>
             </div>
-            <img src="" alt="" className="churro_footer" />
+            <img src={churro} alt="" className="churro_footer" />
         </footer>
     )
 }

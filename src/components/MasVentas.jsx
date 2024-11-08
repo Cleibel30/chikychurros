@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom'
 
 export const MasVentas = () => {
     return (
@@ -11,7 +12,7 @@ export const MasVentas = () => {
                         <div className="informacion_ventas">
                             <h3>CHURROS CLÁSICOS</h3>
                             <p className='mensaje'>AZÚCAR Y CANELA. BANDEJA DE 10 UNIDADES DE 10CM</p>
-                            <p className='precio'>80bs</p>
+                            <Link to="https://api.whatsapp.com/send?phone=4125079184" target='_blank' className='precio'>80bs <i class="fa-brands fa-whatsapp"></i></Link>
                         </div>
                     </article>
 
@@ -20,7 +21,7 @@ export const MasVentas = () => {
                         <div className="informacion_ventas">
                             <h3>CHURROS ESPECIALES</h3>
                             <p className='mensaje'>1 TOPPING (CHOCOLATE O AREQUIPE). BANDEJA DE 10 UNIDADES DE 10CM</p>
-                            <p className='precio'>100bs</p>
+                            <Link to="https://api.whatsapp.com/send?phone=4125079184" target='_blank' className='precio'>100bs <i class="fa-brands fa-whatsapp"></i></Link>
                         </div>
                     </article>
                 </div>
